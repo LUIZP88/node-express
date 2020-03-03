@@ -1,0 +1,23 @@
+{
+    "name": "node-express",
+    "version": "1.0.0",
+    "description": "projeto teste com Node.js e express",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+
+        "type": "git",
+        "url": "https://github.com/LUIZP88/node-express.git"
+
+    },
+
+    "author": "LP",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.2",
+        "express": "4.17.1",
+        "body-parse": "1.19.0"
+    }
+}
