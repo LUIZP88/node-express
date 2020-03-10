@@ -7,17 +7,15 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-
         "type": "git",
         "url": "https://github.com/LUIZP88/node-express.git"
-
     },
-
     "author": "LP",
     "license": "ISC",
     "dependencies": {
+        "body-parse": "1.19.0",
+        "express": "^4.17.1",
         "nodemon": "^2.0.2",
-        "express": "4.17.1",
-        "body-parse": "1.19.0"
+        "mongoose": "5.9.4"
     }
 }
