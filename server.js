@@ -1,7 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
+var mongoose = require('mongoose');
+
+//PERSISTENCIA
+mongoose.connect('mongodb://localhost/bdCrud', { useNewUrlParser: true });
 
 //configutar app para usar o body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
