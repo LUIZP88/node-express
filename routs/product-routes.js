@@ -1,5 +1,5 @@
 const express = require('express');
-var router = express.router(); // intercepta as rotas
+var router = express.Router(); // intercepta as rotas
 
 
 var Produto = require("../app/model/product");

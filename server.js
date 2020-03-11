@@ -12,9 +12,13 @@ app.use(bodyParser.json());
 
 const Port = process.env.Port || 3000;
 
-//definindo rotas
-const router = express.Router(); // intercept de todas as rotas
+//ROTAS
+var productRoute = require('./routs/product-routes');
 
+app.use('/api/products', productRoute);
+//definindo rotas
+//const router = express.Router(); // intercept de todas as rotas
+/*
 //middleware
 router.use(function(req, res, next) {
     console.log("intercept by Middleware");
@@ -26,7 +30,8 @@ router.use(function(req, res, next) {
 router.get('/', (req, res) => {
     res.json({ "message": "Rota teste OK" });
 });
-app.use('/api', router);
+*/
+//app.use('/api', router);
 
 app.listen(Port, () => {
     console.log(" server is up and running");
