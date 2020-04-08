@@ -1,25 +1,27 @@
 {
-    "name": "express",
-    "version": "1.0.0",
-    "description": "Project with Node.JS and Express Framework",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/LUIZP88/node-express.git"
-    },
-    "keywords": [
-        "express",
-        "node"
-    ],
-    "author": "LP",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "1.19.0",
-        "express": "4.17.1",
-        "mongoose": "^5.9.4",
-        "nodemon": "^2.0.2"
-    }
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Project with Node.JS and Express Framework",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizmurakamipro/node-express.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "Luiz Murakami",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
