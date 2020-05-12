@@ -8,20 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luizmurakamipro/node-express.git"
+    "url": "https://github.com//LUIZP88/node-express.git"
   },
   "keywords": [
     "express",
     "node"
   ],
-  "author": "Luiz Murakami",
+  "author": "Luiz Paulo",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "1.19.0",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
     "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   }
 }
